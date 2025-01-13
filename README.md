@@ -48,16 +48,16 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 Сделал прям здесь
 
-| Название таблицы     | Название первичного ключа               |
-|----------------------|-----------------------------------------|
-| users                | user_id                                 |
-| products             | product_id                              |
-| orders               | order_id                                |
-| order_items          | order_id, product_id                    | 
-| categories           | category_id                             |
-| reviews              | review_id                               |
-| payments             | payment_id                              |
-| shipments            | shipment_id                             |
-| discount_codes       | discount_code_id                        |
-| product_categories    | product_id, category_id                |
+| Название таблицы     | Название первичного ключа                |
+|----------------------|------------------------------------------|
+| users                | user_id                                  |
+| products             | products_id                              |
+| orders               | orders_id                                |
+| order_items          | order_id, products_id                    | 
+| categories           | categories_id                            |
+| reviews              | reviews_id                               |
+| payments             | payments_id                              |
+| shipments            | shipments_id                             |
+| discount_codes       | discount_codes_id                        |
+| product_categories    | product_id, categories_id               |
 
