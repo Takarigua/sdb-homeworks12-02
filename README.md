@@ -26,11 +26,17 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### Ответ
 
-1. ![user](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/sys_temp.png)
+1. Создал пользователя
+   
+![user](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/sys_temp.png)
 
-2. ![grants](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/grants.png)
+2. Наделил правами
+  
+![grants](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/grants.png)
 
-3. ![sakila](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/sakila.png)
+3. Восстановил таблицу
+
+![sakila](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/sakila.png)
 
 
 ```
