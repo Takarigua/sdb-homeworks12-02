@@ -50,7 +50,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 | Название таблицы     | Название первичного ключа                |
 |----------------------|------------------------------------------|
-| users                | user_id                                  |
+| users                | users_id                                 |
 | products             | products_id                              |
 | orders               | orders_id                                |
 | order_items          | order_id, products_id                    | 
