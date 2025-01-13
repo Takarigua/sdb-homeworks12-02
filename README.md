@@ -34,7 +34,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
   
 ![grants](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/grants.png)
 
-3. Восстановил таблицу
+3. Переподключился и используя mysql -usys_temp -pyour_password sakila < /sakila-schema.sql и mysql -usys_temp -pyour_password sakila < /sakila-data.sql восстановил базу
 
 ![sakila](https://github.com/Takarigua/sdb-homeworks12-02/blob/fc1ac11ac56a43a482184da6e3ae80265b0bab82/img/sakila.png)
 
